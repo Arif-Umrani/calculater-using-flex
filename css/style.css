@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* just for styling body background color */
+body {
+    background: rgba(6, 14, 56, 0.94);
+}
+
+/* main styling and content alignment */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+/* this is container for styling the basic */
+.container {
+    background-color: rgb(255 255 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 02px 02px 4px 2px rgb(171, 168, 168);
+}
+
+/* calculater screen stylng */
+.container .screen {
+    display: flex;
+    width: 340px;
+    margin: 15px;
+    flex-wrap: wrap;
+    box-shadow: inset 0px 0px 7px 0px #808080;
+    border-radius: 10px;
+    justify-content: right;
+}
+
+/* calculator buttons alignment */
+.container div {
+    background-color: rgb(226, 226, 226);
+    margin: 10px;
+    width: 70px;
+    line-height: 75px;
+    font-size: 60px;
+}
+
+/* calculator yellow button styling */
+.container .yellow {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236 180 102 / 84%);
+    box-shadow: 0px -1px 8px 1px #c8c8c5;
+    border-radius: 20px;
+}
+
+/* calculator blue button styling */
+.container .blue {
+    display: flex;
+    justify-content: center;
+    background-color: #7fdaff;
+    box-shadow: 0px 0px 7px 0px gray;
+    border-radius: 20px;
+}
+
+/* calculator equal button styling */
+.container .equal {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    background-color: rgb(77 216 0);
+    box-shadow: 0px 0px 7px 2px #808080a6;
+    border-radius: 20px;
+     margin-right: 37%;
+}
+
+/* calculator red button styling */
+.container .red {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 20px;
+}
