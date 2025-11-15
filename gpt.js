@@ -1,4 +1,3 @@
-<script>
 
 let value1 = "";
 let value2 = "";
@@ -50,4 +49,3 @@ function calculate() {
     document.getElementById("screen").innerHTML = result;
 }
 
-</script>
