@@ -6,7 +6,7 @@ let operator = "";
 function press(num) {
     document.getElementById("screen").innerHTML += num;
 }
-
+// c
 function clearScreen() {
     document.getElementById("screen").innerHTML = "";
     value1 = "";

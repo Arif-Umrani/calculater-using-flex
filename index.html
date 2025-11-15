@@ -28,13 +28,11 @@
             <!-- designing calculator by containing items
               in div and classes -->
             <div class="container">
-                <!-- <p id="screen"></p> -->
                 <input type="text" class="screen" id="screen"/>
-                <!-- <div class="screen">852685</div> -->
-                <div class="yellow" onclick="setOperator('+')">+</div>
-                <div class="yellow" onclick="setOperator('-')">-</div>
-                <div class="yellow" onclick="setOperator('*')">*</div>
-                <div class="yellow" onclick="setOperator('/')">/</div>
+                <div class="yellow" onclick="setOp('+')">+</div>
+                <div class="yellow" onclick="setOp('-')">-</div>
+                <div class="yellow" onclick="setOp('*')">*</div>
+                <div class="yellow" onclick="setOp('/')">/</div>
                 <div class="blue" onclick="press('1')">1</div>
                 <div class="blue" onclick="press('2')">2</div>
                 <div class="blue" onclick="press('3')">3</div>
@@ -46,8 +44,8 @@
                 <div class="blue" onclick="press('9')">9</div>
                 <div class="blue" onclick="press('0')">0</div>
                 <div class="blue">.</div>
-                <div class="red" onclick="press('clear')">C</div>
-                <div class="equal">=</div>
+                <div class="red" onclick="clearScreen()">C</div>
+                <div class="equal" onclick="calculate()">=</div>
             </div>
             </div>
         </section>
