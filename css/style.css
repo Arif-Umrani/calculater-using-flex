@@ -38,6 +38,7 @@ main {
     box-shadow: inset 0px 0px 7px 0px #808080;
     border-radius: 10px;
     justify-content: right;
+    font-size: 60px;
 }
 
 /* calculator buttons alignment */

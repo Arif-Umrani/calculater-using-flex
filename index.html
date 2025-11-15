@@ -11,6 +11,16 @@
 <body>
     <header>
 
+        <!-- 
+            breakdown points
+            - click krny pr number display ho.
+                - div change into input X
+                - display on value in screen X
+                - clickable all divs X
+                - C button clear X
+                - numbers multiple press X
+                - 1 + 2
+        -->
     </header>
 
     <main>
@@ -18,23 +28,25 @@
             <!-- designing calculator by containing items
               in div and classes -->
             <div class="container">
-                <div class="screen">852685</div>
-                <div class="yellow">+</div>
-                <div class="yellow">-</div>
-                <div class="yellow">*</div>
-                <div class="yellow">/</div>
-                <div class="blue">1</div>
-                <div class="blue">2</div>
-                <div class="blue">3</div>
-                <div class="blue">4</div>
-                <div class="blue">5</div>
-                <div class="blue">6</div>
-                <div class="blue">7</div>
-                <div class="blue">8</div>
-                <div class="blue">9</div>
-                <div class="blue">0</div>
+                <!-- <p id="screen"></p> -->
+                <input type="text" class="screen" id="screen"/>
+                <!-- <div class="screen">852685</div> -->
+                <div class="yellow" onclick="setOperator('+')">+</div>
+                <div class="yellow" onclick="setOperator('-')">-</div>
+                <div class="yellow" onclick="setOperator('*')">*</div>
+                <div class="yellow" onclick="setOperator('/')">/</div>
+                <div class="blue" onclick="press('1')">1</div>
+                <div class="blue" onclick="press('2')">2</div>
+                <div class="blue" onclick="press('3')">3</div>
+                <div class="blue" onclick="press('4')">4</div>
+                <div class="blue" onclick="press('5')">5</div>
+                <div class="blue" onclick="press('6')">6</div>
+                <div class="blue" onclick="press('7')">7</div>
+                <div class="blue" onclick="press('8')">8</div>
+                <div class="blue" onclick="press('9')">9</div>
+                <div class="blue" onclick="press('0')">0</div>
                 <div class="blue">.</div>
-                <div class="red">C</div>
+                <div class="red" onclick="press('clear')">C</div>
                 <div class="equal">=</div>
             </div>
             </div>
@@ -46,6 +58,8 @@
         </article>
 
     </main>
+
+    <script src="index.js"></script>
 
 </body>
 
